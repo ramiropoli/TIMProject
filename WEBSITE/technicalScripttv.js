@@ -15,7 +15,7 @@ function ready(){
         method: "POST",
         //dataType: "json", //type of data
         crossDomain: true, //localhost purposes
-        url: "tv1.php", //Relative or absolute path to file.php file
+        url: "http://timprj.altervista.org/tv1.php", //Relative or absolute path to file.php file
         data: {device:id},
         success: function(response) {
              console.log(JSON.parse(response));

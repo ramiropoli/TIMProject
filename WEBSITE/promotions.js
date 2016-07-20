@@ -17,7 +17,7 @@ var params = {};
         method: "POST",
         //dataType: "json", //type of data
         crossDomain: true, //localhost purposes
-        url: "promotions.php", //Relative or absolute path to file.php file
+        url: "http://timprj.altervista.org/promotions.php", //Relative or absolute path to file.php file
        data: {id:params.id, category:params.category},
         success: function(response) {
             console.log(JSON.parse(response));
