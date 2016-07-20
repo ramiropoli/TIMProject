@@ -2,7 +2,20 @@
 .row img{
     width:100%;
 }
-
+.dropdown-menu .divider {
+    height: 1px;
+    margin: 4px 0;
+    overflow: hidden;
+    background-color: black;
+}
+.dropdown-backdrop {
+    position:static;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+   
+}
 .footer {
   margin-top: 0px;
   padding-top: 30px;
