@@ -1,4 +1,9 @@
+
+$(document).bind("mobileinit", function () { 
+$.support.cors = true; 
+$.mobile.allowCrossDomainPages = true; });
 $(document).ready(ready);
+
 
 function ready(){
     var id = document.location.search.substr('?id='.length) | 0;

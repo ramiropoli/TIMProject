@@ -1,3 +1,7 @@
+
+$(document).bind("mobileinit", function () { 
+$.support.cors = true; 
+$.mobile.allowCrossDomainPages = true; });
 $(document).ready(ready);
 
 function ready(){
