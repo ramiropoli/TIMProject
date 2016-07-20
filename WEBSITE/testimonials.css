@@ -220,8 +220,26 @@
 .navbar-header .navbar-toggle {
     border-color: #ddd;
 }
+    .jumbotron {
+    margin-top: 5%;
+    margin-left: 0%;
+    text-align: justify;
+    background-image: linear-gradient(to top, #f5f5f0 0%, #e0e0d1 100%);
+     width: 100%; 
+}
+    .row {
+    padding-bottom: 5%;
+    margin-left: 3%;
+    margin-right: 5%;
+     width: 100%; 
+}
+    .col-md-4 {
+    padding-top: 0;
+    width: 100%; 
+    background-image: linear-gradient(to top, #f5f5f0 0%, #e0e0d1 100%);
+}
     .jumbotron{
-        margin-left:15%;
+        margin-left:0%;
     }
 }
 @media (min-width: 768px) {
