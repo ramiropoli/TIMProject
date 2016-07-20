@@ -1,0 +1,363 @@
+
+.row img{
+    width:100%;
+}
+
+.footer {
+  margin-top: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top: 1px solid #eee;
+  background-image: linear-gradient(to top, #000066 0%, #0000e6  100%);
+  color:white;
+  z-index: 1;
+}
+
+#container1{
+   padding-left: 15%;
+}
+.align-left{
+    float:left
+}
+.align-right{
+    float: right
+}
+.navbar-justified{
+    position:static;
+    margin-bottom:0px;
+    color: #FFFFFF;
+    background-image: linear-gradient(to top, #000066 0%, #0000e6  100%);
+}
+.navbar-form{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right:40px;
+}
+.navbar-brand {
+    float: left;
+    height: 100%;
+    padding: 0;
+    line-height: 20px;
+}
+
+.dropdown-menu.vertical-dropdown-menu {
+    position:static;
+    float:none;
+}
+.dropdown-menu{
+    min-width: 0px;
+    margin:0px 0 0;
+    font-size: auto;
+    font-feature-settings: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-style:italic;
+    text-align: center;
+    
+}
+.carousel {
+  height: 500px;
+  margin-bottom: 5%;
+  margin-top:0%;
+  margin-left:15%;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+/* Main marketing message and sign up button */
+.row{
+    padding-bottom: 2%;
+    padding-left: 20%;
+    width:100%;
+}
+
+.navbar-default {
+  width:100%
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.navbar-default > li > a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width:100%;
+  margin-bottom: 0;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  background-color: #e5e5e5; /* Old browsers */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#2952a3), to( #142952));
+  background-image: -webkit-linear-gradient(top, #2952a3 0%, #142952 100%);
+  background-image:      -o-linear-gradient(top, #2952a3 0%, #142952 100%);
+  background-image:         linear-gradient(to bottom, #2952a3 0%,#142952 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2952a3', endColorstr='#142952',GradientType=0 ); /* IE6-9 */
+  background-repeat: repeat-x; /* Repeat the gradient */
+  border-bottom: 1px solid #d5d5d5;
+}
+.navbar-default > .active > a,
+.navbar-default > .active > a:hover,
+.navbar-default > .active > a:focus {
+  background-color: #0066cc;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+          box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+.navbar-default > li:first-child > a {
+  border-radius: 5px 5px 0 0;
+}
+.navbar-default > li:last-child > a {
+  border-bottom: 0;
+  border-radius: 0 0 5px 5px;
+}
+@media (min-width: 768px) {
+  .navbar-default {
+    max-height: 52px;
+  }
+  .navbar-default > li > a {
+    border-right: 1px solid #d5d5d5;
+    border-left: 1px solid #fff;
+  }
+  .navbar-default > li:first-child > a {
+    border-left: 0;
+    border-radius: 5px 0 0 5px;
+  }
+  .navbar-default > li:last-child > a {
+    border-right: 0;
+    border-radius: 0 5px 5px 0;
+  }
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper{
+    position: absolute;
+    left: 0px;
+    width:15%;
+    top:0px;
+    bottom:0px;
+    background-color:crimson;
+}
+.navbar-wrapper > .container {
+  padding-right: 0px;
+  padding-left: 0px;
+    width:100%;
+}
+.navbar-wrapper .navbar {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+.container2 {
+    overflow:hidden;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (max-width: 768px) {
+.carousel{
+        margin-left: 0;
+    }
+.carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+    }
+.row img{
+    width:100%;
+}
+    
+.row{
+    padding-left: 1%;
+    }
+.navbar-wrapper{
+     position: relative;
+    left: 0px;
+    width:100%;
+}
+.row{
+    padding-left: 1%;
+    }
+#menu-accordeon{
+    display:none;
+}
+    .navbar-toggle{
+        background-color:darkgray;
+    }
+    .navbar-header .navbar-toggle:hover {
+    background-color: #ddd;
+}
+    .navbar-header .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+}
+.navbar-header .navbar-toggle {
+    border-color: #ddd;
+}
+
+}
+@media (min-width: 768px) {
+    .featurette-heading {
+    font-size: 50px;
+  }
+#menu-mobile{
+        display: none;
+    }
+#menu-accordeon {
+  padding-left: 0%;
+  margin:0;
+  list-style:none;
+  text-align: center;
+  width: 100%;
+}
+#menu-accordeon ul {
+  padding:0;
+  margin:0;
+  list-style:none;
+  text-align: center;
+}
+#menu-accordeon li {
+   background-color:#729EBF; 
+    background-image: -webkit-linear-gradient(top, #2952a3 0%, #142952 100%);
+   background-image: linear-gradient(to bottom, #2952a3 0%, #142952 100%);
+   border-radius: 2px;
+   margin-bottom:2px;
+   box-shadow: 3px 3px 3px #999;
+   border:solid 1px #333A40
+}
+#menu-accordeon li li {
+   max-height:0;
+   overflow: hidden;
+   transition: all .5s;
+   border-radius:0;
+   background: #444;
+   box-shadow: none;
+   border:none;
+   margin:0;
+}
+#menu-accordeon a {
+  display:block;
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 0;
+  font-size:1.5em;
+}
+#menu-accordeon ul li a, #menu-accordeon li:hover li a {
+  font-size:1em
+}
+#menu-accordeon li:hover {
+   background: #729EBF;
+    }
+#menu-accordeon li li:hover {
+   background: #999;
+   
+}
+#menu-accordeon ul li:last-child {
+   border-radius: 0 0 6px 6px;
+   border:none;
+}
+#menu-accordeon li:hover li {
+  max-height: 10em;
+}
+  
+  .navbar-wrapper .container {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+    .menu2{
+    background-color: crimson;
+    width:15%;
+    height: 100%;
+}
+
+     /* Remove the padding we set earlier */
+  .masthead,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .masthead,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+
+    
+.dropdown-menu.vertical-dropdown-menu{
+    background-image: linear-gradient(to top, #f5f5f0 0%,#ddd   100%);
+    }
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.featurette{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+}
